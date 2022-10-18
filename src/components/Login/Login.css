@@ -1,0 +1,37 @@
+.from_box{
+box-sizing: border-box;
+width: 400px;
+margin: 25px auto;
+border: 1px solid #95A0A7;
+border-radius: 8px;
+padding-left: 40px;
+
+}
+.from_box h2{
+    text-align: center;
+}
+.form_control label{
+    display: block;
+    margin-bottom: 10px;
+
+}
+.form_control input{
+    width: 80%;
+    padding: 20px;
+    border: 2px solid rgb(231, 231, 238);
+    font-size: 18px;
+}
+.form_control {
+    margin-bottom: 20px;
+}
+.from_box button{
+ width: 92%;    
+ padding: 20px;
+ background: rgb(243, 211, 152);
+ border: none;
+ font-size: 20px;
+ cursor: pointer;
+}
+.from_box button:hover{
+    background: #f2ca80;
+}
